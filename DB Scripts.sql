@@ -19,3 +19,9 @@ CREATE TABLE `Course` (
     `price` DECIMAL(19,2),
     PRIMARY KEY (`id`)
 );
+
+INSERT INTO Course (name, description, instructor, date, price)
+VALUES
+	("Fundamentals of C# I", "Goes over the fundamental components of the C# programming language", "Person 1", "04-25-2011", 1800.00)
+    , ("Fundamentals of C# II", "Goes over the intermediate level components of the C# programming language", "Person 2", "07-25-2011", 1750.00)
+    ;
